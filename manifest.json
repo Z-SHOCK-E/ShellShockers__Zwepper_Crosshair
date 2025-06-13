@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Zwepper Crosshair",
+    "version": "1.0",
+    "description": "Applies a custom crosshair on Shell Shockers for better aim.",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://shellshock.io/*"
+            ],
+            "css": [
+                "crosshair.css"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": "icon.png"
+    }
+}

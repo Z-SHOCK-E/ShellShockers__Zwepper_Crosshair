@@ -1,0 +1,36 @@
+
+
+.crosshair.normal,
+.custom-crosshair.crosshair.normal {
+    left: calc(50% - .15em);
+    background: dodgerblue !important;
+    width: .4em;
+}
+
+.crosshair.powerful,
+.custom-crosshair.crosshair.powerful {
+    left: calc(50% - .25em);
+    background: red !important;
+    width: .5em;
+}
+
+.custom-crosshair#reticleDot {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: orangered !important;
+    border: solid .05em #000 !important;
+    width: .4em !important;
+    height: .4em !important;
+    opacity: .7 !important;
+}
+
+.shotReticle.fill.normal,
+.custom-crosshair.shotReticle.fill.normal {
+    border-color: cyan !important;
+    border-left: solid transparent !important;
+    border-right: solid transparent !important;
+    border-width: .18em !important;
+    padding: .18em !important;
+}
